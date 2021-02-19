@@ -1,0 +1,7 @@
+build/
+*.xcscheme
+*.xcuserstate
+*.xcbkptlist
+*.xcworkspacedata
+xcschememanagement.plist
+IDEWorkspaceChecks.plist
