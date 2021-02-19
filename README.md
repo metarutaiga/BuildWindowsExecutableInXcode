@@ -25,7 +25,7 @@ cp llvm-lib-wrapper /usr/local/opt/llvm/bin
       </PathRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "xxImGui.exe"
+            argument = "Sample.exe"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
