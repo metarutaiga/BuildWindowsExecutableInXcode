@@ -1,4 +1,4 @@
-### Build and Run xxImGui for Windows on macOS
+### Build and Run Windows Executable on macOS
 1. Install wine and llvm (llvm-12 or above for ARM 32bit)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -13,7 +13,7 @@ clang++ -Ofast llvm-lib-wrapper.cpp -o llvm-lib-wrapper
 cp lld-link-wrapper /usr/local/opt/llvm/bin
 cp llvm-lib-wrapper /usr/local/opt/llvm/bin
 ```
-3. Edit build/xxImGui.xcodeproj/xcshareddata/xcschemes/xxImGui (Windows).xcscheme
+3. Edit Sample.xcodeproj/xcshareddata/xcschemes/Sample.xcscheme
 ```
    <LaunchAction
       buildConfiguration = "Release"
